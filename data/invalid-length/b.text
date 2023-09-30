@@ -1,0 +1,84 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C = AU, O = The Legion of the Bouncy Castle, L = Melbourne, ST = Victoria, CN = Trust Anchor
+        Validity
+            Not Before: Jul 22 04:19:16 2023 GMT
+            Not After : Jul 21 04:19:16 2024 GMT
+        Subject: C = AU, O = The Legion of the Bouncy Castle, L = Melbourne, ST = Victoria, CN = End Entity, serialNumber = CVR:12345678-UID:1111 + emailAddress = feedback-crypto@bouncycastle.org
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:d1:88:3c:ec:6b:01:99:fb:73:a9:b0:15:09:51:
+                    b6:7a:8e:fd:c2:60:23:f4:d4:48:04:00:d5:e7:59:
+                    73:20:ee:cb:1f:45:54:15:c9:d6:ce:b5:01:ad:02:
+                    a0:49:07:e2:15:79:a8:a5:ff:d9:12:9a:af:4f:7a:
+                    31:3f:fc:4c:27:3a:bc:48:94:a2:db:54:fc:67:e4:
+                    09:8c:bf:1c:eb:ae:a8:ab:93:d0:81:34:0c:0e:fc:
+                    40:a3:28:cd:df:71:13:45:c6:e0:1e:7d:ad:ee:07:
+                    29:36:ee:35:f8:73:c4:66:74:f5:df:e8:96:98:fc:
+                    65:ba:3f:01:ac:9b:df:b5:32:4c:8e:15:ff:ea:9e:
+                    f1:94:3e:39:19:00:1a:1b:e0:d6:be:ef:c4:02:5d:
+                    88:1a:71:bf:d7:34:c5:08:ea:37:6a:0a:c0:af:69:
+                    fb:02:e6:68:47:6a:b7:3d:bf:99:f4:c5:90:92:c6:
+                    5c:45:77:72:2f:1f:45:eb:a1:f7:f6:61:45:98:93:
+                    06:ef:9c:67:19:e0:36:11:52:f7:b6:c1:b3:42:26:
+                    1e:f9:5a:3e:d1:66:25:68:d1:92:c7:22:6d:45:3a:
+                    cf:78:d7:3e:44:6f:9e:93:cb:e9:03:fb:97:98:b3:
+                    36:6e:f8:43:aa:50:b4:fd:ce:de:38:80:b8:ec:0b:
+                    d7:e5
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Digital Signature
+            X509v3 Basic Constraints: critical
+                CA:TRUE
+            X509v3 Subject Alternative Name: critical
+                email:testabcdefghijklmnopqrstuvwxyz1234567891@test.test, email:testabcdefghijklmnopqrstuvwxyz1234567892@test.test, email:testabcdefghijklmnopqrstuvwxyz1234567893@test.test, email:testabcdefghijklmnopqrstuvwxyz1234567894@test.test
+    Signature Algorithm: sha256WithRSAEncryption
+         7d:7f:0e:f6:ba:b1:bf:b4:25:42:74:32:56:af:c4:4a:f4:0e:
+         c5:11:c5:0a:3a:cd:f9:20:63:88:0f:63:54:6a:74:fc:86:ba:
+         3a:8d:fe:b3:a8:54:c6:05:5e:79:bb:80:8f:96:d5:4c:44:a8:
+         11:45:66:36:4f:4a:32:b8:db:41:3a:eb:f1:88:63:7f:0e:24:
+         a1:48:d0:00:24:a9:dd:44:d1:bf:b3:83:b2:47:8d:95:e7:f3:
+         e4:1f:82:08:61:40:d9:16:2b:95:02:a0:f2:95:d9:5b:9a:6b:
+         50:a7:cb:13:d3:cf:64:42:b0:e6:5a:ea:75:fa:cc:01:f2:be:
+         0f:62:cf:c3:89:a0:25:39:c6:24:be:28:4b:08:b7:d8:e2:02:
+         e2:96:94:d0:a2:8a:7e:4c:cb:b4:71:13:80:30:3b:9e:44:52:
+         d6:12:34:84:ad:5b:0b:8d:9f:33:9d:fa:90:29:ee:4c:f7:9d:
+         53:8b:8c:60:08:91:17:1a:b5:94:c5:f7:e9:71:7b:c1:54:02:
+         91:9d:43:77:40:f4:64:09:f5:5b:70:71:74:9b:93:20:38:ed:
+         6c:4d:ca:7e:97:cc:4b:60:c9:75:fa:d9:34:33:e4:28:8f:2c:
+         6a:cc:45:e7:a3:6d:37:9d:5c:5a:90:7e:e1:59:0f:c3:29:db:
+         01:50:15:92
+-----BEGIN CERTIFICATE-----
+MIIEvTCCA6WgAwIBAgIBAjANBgkqhkiG9w0BAQsFADB1MQswCQYDVQQGEwJBVTEo
+MCYGA1UECgwfVGhlIExlZ2lvbiBvZiB0aGUgQm91bmN5IENhc3RsZTESMBAGA1UE
+BwwJTWVsYm91cm5lMREwDwYDVQQIDAhWaWN0b3JpYTEVMBMGA1UEAwwMVHJ1c3Qg
+QW5jaG9yMB4XDTIzMDcyMjA0MTkxNloXDTI0MDcyMTA0MTkxNlowgcIxCzAJBgNV
+BAYTAkFVMSgwJgYDVQQKDB9UaGUgTGVnaW9uIG9mIHRoZSBCb3VuY3kgQ2FzdGxl
+MRIwEAYDVQQHDAlNZWxib3VybmUxETAPBgNVBAgMCFZpY3RvcmlhMRMwEQYDVQQD
+DApFbmQgRW50aXR5MU0wHAYDVQQFExVDVlI6MTIzNDU2NzgtVUlEOjExMTEwLQYJ
+KoZIhvcNAQkBFiBmZWVkYmFjay1jcnlwdG9AYm91bmN5Y2FzdGxlLm9yZzCCASIw
+DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANGIPOxrAZn7c6mwFQlRtnqO/cJg
+I/TUSAQA1edZcyDuyx9FVBXJ1s61Aa0CoEkH4hV5qKX/2RKar096MT/8TCc6vEiU
+ottU/GfkCYy/HOuuqKuT0IE0DA78QKMozd9xE0XG4B59re4HKTbuNfhzxGZ09d/o
+lpj8Zbo/Aayb37UyTI4V/+qe8ZQ+ORkAGhvg1r7vxAJdiBpxv9c0xQjqN2oKwK9p
++wLmaEdqtz2/mfTFkJLGXEV3ci8fReuh9/ZhRZiTBu+cZxngNhFS97bBs0ImHvla
+PtFmJWjRkscibUU6z3jXPkRvnpPL6QP7l5izNm74Q6pQtP3O3jiAuOwL1+UCAwEA
+AaOCAQgwggEEMA8GA1UdDwEB/wSBBAMCB4AwEAYDVR0TAQH/BIEFMAMBAf8wgd4G
+A1UdEQEB/wSB0zCB0IEydGVzdGFiY2RlZmdoaWprbG1ub3BxcnN0dXZ3eHl6MTIz
+NDU2Nzg5MUB0ZXN0LnRlc3SBMnRlc3RhYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5
+ejEyMzQ1Njc4OTJAdGVzdC50ZXN0gTJ0ZXN0YWJjZGVmZ2hpamtsbW5vcHFyc3R1
+dnd4eXoxMjM0NTY3ODkzQHRlc3QudGVzdIEydGVzdGFiY2RlZmdoaWprbG1ub3Bx
+cnN0dXZ3eHl6MTIzNDU2Nzg5NEB0ZXN0LnRlc3QwDQYJKoZIhvcNAQELBQADggEB
+AH1/Dva6sb+0JUJ0MlavxEr0DsURxQo6zfkgY4gPY1RqdPyGujqN/rOoVMYFXnm7
+gI+W1UxEqBFFZjZPSjK420E66/GIY38OJKFI0AAkqd1E0b+zg7JHjZXn8+Qfgghh
+QNkWK5UCoPKV2Vuaa1CnyxPTz2RCsOZa6nX6zAHyvg9iz8OJoCU5xiS+KEsIt9ji
+AuKWlNCiin5My7RxE4AwO55EUtYSNIStWwuNnzOd+pAp7kz3nVOLjGAIkRcatZTF
+9+lxe8FUApGdQ3dA9GQJ9VtwcXSbkyA47WxNyn6XzEtgyXX62TQz5CiPLGrMReej
+bTedXFqQfuFZD8Mp2wFQFZI=
+-----END CERTIFICATE-----
